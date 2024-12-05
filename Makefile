@@ -1,3 +1,15 @@
+# **************************************************************************** #
+#                                                                              #
+#                                                         :::      ::::::::    #
+#    Makefile                                           :+:      :+:    :+:    #
+#                                                     +:+ +:+         +:+      #
+#    By: apavlopo <marvin@42.fr>                    +#+  +:+       +#+         #
+#                                                 +#+#+#+#+#+   +#+            #
+#    Created: 2024/12/05 15:37:24 by apavlopo          #+#    #+#              #
+#    Updated: 2024/12/05 15:37:40 by apavlopo         ###   ########.fr        #
+#                                                                              #
+# **************************************************************************** #
+
 NAME = libftprintf.a
 CC = cc
 CFLAGS = -Wall -Wextra -Werror -I./include
@@ -6,6 +18,7 @@ ARFLAGS = rcs
 
 SRC = src/ft_printf.c \
 		src/ft_putchar.c \
+		src/ft_print_ptr.c \
 		src/ft_putstr.c \
 		src/ft_print_nbr.c \
 		src/ft_print_unsigned_dec.c \
