@@ -35,6 +35,8 @@ static void	conversion_cases(char conversion_char, va_list args, int *counter)
 			counter);
 	else if (conversion_char == '%')
 		ft_putchar('%', counter);
+	else
+		ft_putchar(conversion_char, counter);
 }
 
 int	ft_printf(const char *format, ...)
